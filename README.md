@@ -37,6 +37,8 @@ Please prepare the dataset in the following format:
 | Time | MMSI | Latitude | Longitude |
 | ---- | ---- | --- | --- |
 |   0   |  111111111    |   39.90  |  116.40    |
+|   10   |  111111111    |   39.91  |  116.40    |
+|   20   |  111111111    |   39.91  |  116.41    |
 
 ### Cite STGTP
 If you find this repo useful, please consider citing paper
