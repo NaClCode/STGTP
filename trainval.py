@@ -21,8 +21,7 @@ def get_parser():
     parser.add_argument('--P',  default=True, type=ast.literal_eval)
     parser.add_argument('--S',  default=True, type=ast.literal_eval)
     
-    parser.add_argument('--model', default='STGTP', choices=["LSTM", "Seq2Seq","STGTP", "GRU", 
-                                                            "iTransformer", "Transformer", "BiGRU", "BiLSTM", "Mamba", 'STGCNN', 'NCE'])
+    parser.add_argument('--model', default='STGTP'])
     parser.add_argument('--dataset', default='TianJinPort')
     parser.add_argument('--phase', default='train', choices=['train', 'test'])
     
