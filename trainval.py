@@ -22,7 +22,7 @@ def get_parser():
     parser.add_argument('--S',  default=True, type=ast.literal_eval)
     
     parser.add_argument('--model', default='STGTP'])
-    parser.add_argument('--dataset', default='TianJinPort')
+    parser.add_argument('--dataset')
     parser.add_argument('--phase', default='train', choices=['train', 'test'])
     
     parser.add_argument('--save_dir')
